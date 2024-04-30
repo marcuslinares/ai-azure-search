@@ -4,38 +4,46 @@ Como utilizar AI Search (Azure) para indexação e consulta de Dados
 1 - Passo a passo para configurar uma pesquisa.
 
     1 - Entre no portal do Azure.
-    Link (https://portal.azure.com/)
-    
+        Link (https://portal.azure.com/)
+        
     2 - Clique no botão + Criar um recurso, pesquise Azure AI Search e crie um recurso Azure AI Search com as seguintes configurações:
-    
-        Assinatura: [sua assinatura do Azure].
-        Grupo de recursos: [selecione ou crie um grupo de recursos com um nome exclusivo].
-        Nome do serviço: [um nome exclusivo].
-        Localização: [Escolha qualquer região disponível].
-        Nível de preços: [Básico]
-        Selecione Review + create e depois de ver a resposta Validation Success, selecione Create.
-    
+        
+            Assinatura: [sua assinatura do Azure].
+            Grupo de recursos: [selecione ou crie um grupo de recursos com um nome exclusivo].
+            Nome do serviço: [um nome exclusivo].
+            Localização: [Escolha qualquer região disponível].
+            Nível de preços: [Básico]
+            Selecione Review + create e depois de ver a resposta Validation Success, selecione Create.
+        
     3 - Após a conclusão da implantação, selecione Ir para o recurso. 
-        Na página de visão geral do Azure AI Search, você pode adicionar índices, importar dados e pesquisar índices criados.
+            Na página de visão geral do Azure AI Search, você pode adicionar índices, importar dados e pesquisar índices criados.
+
 
 
 2 - Insights
 
     Facilidade de Uso: O Azure Cognitive Search é conhecido por sua interface de usuário intuitiva e fácil de usar, 
     que permite aos desenvolvedores criar rapidamente poderosos mecanismos de pesquisa sem a necessidade de conhecimento profundo em ciência de dados.
+    
     Escalabilidade: Uma das principais vantagens do Azure Cognitive Search é sua capacidade de dimensionamento automático, 
     permitindo que os usuários ajustem facilmente a capacidade de pesquisa de acordo com as necessidades do aplicativo, 
     seja para pequenos sites ou aplicativos corporativos em larga escala.
+    
     Integração com Outros Serviços Azure: O Azure Cognitive Search se integra perfeitamente com outros serviços do ecossistema Azure, 
     como Azure Blob Storage, Azure SQL Database e Azure Cosmos DB, facilitando o processo de ingestão e indexação de dados de várias fontes.
+    
     Recursos de IA Avançados: Além da pesquisa básica de texto, o Azure Cognitive Search oferece recursos avançados de IA, 
     como análise de sentimento e reconhecimento óptico de caracteres (OCR), o que o torna ideal para aplicativos que exigem insights mais profundos dos dados.
+    
     Ferramentas de Relevância Personalizadas: Os desenvolvedores têm a capacidade de personalizar a relevância dos resultados de pesquisa com base em métricas 
     específicas do aplicativo, como popularidade, relevância contextual e personalização do usuário, garantindo uma experiência de pesquisa mais precisa e relevante.
+    
     Segurança e Conformidade: O Azure Cognitive Search oferece recursos robustos de segurança e conformidade, incluindo criptografia de dados, controle de acesso e 
     conformidade com padrões regulatórios, como GDPR e LGPD, garantindo a proteção dos dados do usuário.
+    
     Suporte Multilíngue: Com suporte para vários idiomas, o Azure Cognitive Search é capaz de lidar com dados multilíngues e oferecer suporte a aplicativos globais, 
     permitindo que os usuários criem mecanismos de pesquisa que atendam a diversas regiões e públicos-alvo.
+    
     Essas insights destacam alguns dos pontos fortes e recursos distintivos do serviço Azure Cognitive Search, tornando-o uma escolha popular 
     para empresas que buscam implementar recursos avançados de pesquisa em seus aplicativos e plataformas.
 
